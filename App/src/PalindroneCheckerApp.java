@@ -1,24 +1,43 @@
+import java.util.Stack;
+import java.util.Scanner;
+
 public class PalindroneCheckerApp {
-    public static boolean isPalindrome(String str) {
-        str = str.replaceAll("\\s+", "").toLowerCase();
 
-        String reversedStr = new StringBuilder(str).reverse().toString();
+    // Method to check if a string is palindrome using stack
+    public static boolean isPalindrone(String str) {
+        Stack<Character> stack = new Stack<>();
 
-        return str.equals(reversedStr);
+        // Push all characters onto the stack
+        for (char ch : str.toCharArray()) {
+            stack.push(ch);
+        }
+
+        // Build reversed string by popping from stack
+        StringBuilder reversed = new StringBuilder();
+        while (!stack.isEmpty()) {
+            reversed.append(stack.pop());
+        }
+
+        // Compare original and reversed
+        return str.equals(reversed.toString());
     }
+
     public static void main(String[] args) {
-        String[] testStrings = {
-                "madam",
-                "racecar",
-                "hello",
-                "A man a plan a canal Panama"
-        };
-        for (String word : testStrings) {
-            if (isPalindrome(word)) {
-                System.out.println("'" + word + "' is a palindrome.");
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String input = scanner.nextLine();
+
+        if (input == null || input.isEmpty()) {
+            System.out.println("Invalid input. Please enter a non-empty string.");
+        } else {
+            if (isPalindrone(input)) {
+                System.out.println("The string \"" + input + "\" is a palindrome.");
             } else {
-                System.out.println("'" + word + "' is not a palindrome.");
+                System.out.println("The string \"" + input + "\" is NOT a palindrome.");
             }
         }
+
+        scanner.close();
     }
 }
