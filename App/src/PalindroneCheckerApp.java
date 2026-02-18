@@ -1,25 +1,19 @@
-import java.util.Stack;
 import java.util.Scanner;
-
-public class PalindroneCheckerApp {
-
-    // Method to check if a string is palindrome using stack
+public class PalindroneCheckerApp{
     public static boolean isPalindrone(String str) {
-        Stack<Character> stack = new Stack<>();
+        char[] chars = str.toCharArray();
+        int left = 0;
+        int right = chars.length - 1;
 
-        // Push all characters onto the stack
-        for (char ch : str.toCharArray()) {
-            stack.push(ch);
+        // Compare characters from both ends
+        while (left < right) {
+            if (chars[left] != chars[right]) {
+                return false; // mismatch found
+            }
+            left++;
+            right--;
         }
-
-        // Build reversed string by popping from stack
-        StringBuilder reversed = new StringBuilder();
-        while (!stack.isEmpty()) {
-            reversed.append(stack.pop());
-        }
-
-        // Compare original and reversed
-        return str.equals(reversed.toString());
+        return true; // all matched
     }
 
     public static void main(String[] args) {
