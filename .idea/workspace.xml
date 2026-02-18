@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5441c91a-7a91-4991-a2e0-d8c4d0ff91b4" name="Changes" comment="" />
+    <list default="true" id="5441c91a-7a91-4991-a2e0-d8c4d0ff91b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/src/PalindroneCheckerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/App/src/PalindroneCheckerApp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +38,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "UC1",
+    "git-widget-placeholder": "UC2-HardCodePalindrone",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Admin/Documents/RA2411003012390/PalindroneCheckerApp",
     "onboarding.tips.debug.path": "C:/Users/Admin/Documents/RA2411003012390/PalindroneCheckerApp/App/src/Main.java",
@@ -58,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1771405813061</updated>
       <workItem from="1771405814169" duration="484000" />
-      <workItem from="1771406323671" duration="3855000" />
+      <workItem from="1771406323671" duration="4984000" />
     </task>
     <servers />
   </component>
