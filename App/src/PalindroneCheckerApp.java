@@ -1,7 +1,24 @@
-public class PalindroneCheckerApp
-{
-    public static void main(String[] args){
-        System.out.println("Welcome to Palindrone Checker App Management System");
-        System.out.println("Modify this logic to usecase 2");
+public class PalindroneCheckerApp {
+    public static boolean isPalindrome(String str) {
+        str = str.replaceAll("\\s+", "").toLowerCase();
+
+        String reversedStr = new StringBuilder(str).reverse().toString();
+
+        return str.equals(reversedStr);
+    }
+    public static void main(String[] args) {
+        String[] testStrings = {
+                "madam",
+                "racecar",
+                "hello",
+                "A man a plan a canal Panama"
+        };
+        for (String word : testStrings) {
+            if (isPalindrome(word)) {
+                System.out.println("'" + word + "' is a palindrome.");
+            } else {
+                System.out.println("'" + word + "' is not a palindrome.");
+            }
+        }
     }
 }
