@@ -22,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "samiulislam8723-cloud"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/samiulislam8723-cloud/PalindroneCheckerApp",
+    "accountId": "cf277c02-9a1d-4198-a928-01604feddd18"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -33,15 +45,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.PalindromeCheckerApp.executor": "Run",
+    "Application.PalindromeCheckerAppUC6.executor": "Run",
     "Application.PalindroneCheckerApp.executor": "Run",
+    "Application.PalindroneCheckerAppUC6.executor": "Run",
     "Application.UseCase6PalindromeCheckerApp.executor": "Run",
+    "Application.UseCase7PalindromeCheckerApp.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "UC6",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Admin/Documents/RA2411003012390/PalindroneCheckerApp",
     "onboarding.tips.debug.path": "C:/Users/Admin/Documents/RA2411003012390/PalindroneCheckerApp/App/src/Main.java",

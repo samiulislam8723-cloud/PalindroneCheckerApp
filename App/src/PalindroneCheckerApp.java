@@ -1,9 +1,8 @@
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Scanner;
 
-public class PalindroneCheckerApp{
+public class PalindroneCheckerApp {
 
     public static void main(String[] args) {
 
@@ -12,26 +11,24 @@ public class PalindroneCheckerApp{
         System.out.print("Enter a string: ");
         String input = sc.nextLine();
 
-        Queue<Character> queue = new LinkedList<>();
-
-        Stack<Character> stack = new Stack<>();
+        Deque<Character> deque = new ArrayDeque<>();
 
         for (char c : input.toCharArray()) {
-            queue.add(c);
-            stack.push(c);
+            deque.addLast(c);
         }
 
         boolean isPalindrome = true;
 
-        while (!queue.isEmpty()) {
-            char qChar = queue.remove();
-            char sChar = stack.pop();
+        while (deque.size() > 1) {
+            char first = deque.removeFirst();
+            char last = deque.removeLast();
 
-            if (qChar != sChar) {
+            if (first != last) {
                 isPalindrome = false;
                 break;
             }
         }
+
         System.out.println("Input: " + input);
         System.out.println("Is Palindrome? " + isPalindrome);
 
