@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5441c91a-7a91-4991-a2e0-d8c4d0ff91b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/App/src/PalindroneCheckerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/App/src/PalindroneCheckerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "UC6",
+    "git-widget-placeholder": "UC7-DequeBasedOptimizedPalindromeChecker",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Admin/Documents/RA2411003012390/PalindroneCheckerApp",
     "onboarding.tips.debug.path": "C:/Users/Admin/Documents/RA2411003012390/PalindroneCheckerApp/App/src/Main.java",
