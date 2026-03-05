@@ -7,6 +7,8 @@
     <list default="true" id="5441c91a-7a91-4991-a2e0-d8c4d0ff91b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/src/PalindroneCheckerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/App/src/PalindroneCheckerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/App/PalindromeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/App/PalindroneCheckerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/App/PalindroneCheckerApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +25,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "samiulislam8723-cloud"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;samiulislam8723-cloud&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/samiulislam8723-cloud/PalindroneCheckerApp",
-    "accountId": "cf277c02-9a1d-4198-a928-01604feddd18"
+    "accountId": "87be5e74-5b88-42d8-b64f-b642614144bc"
   }
 }]]></component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -55,15 +61,24 @@
     "Application.UseCase7PalindromeCheckerApp.executor": "Run",
     "Application.UseCase9PalindromeCheckerApp.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "UC10-CaseInsensitiveandSpaceIgnored",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "UC12",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Admin/Documents/RA2411003012390/PalindroneCheckerApp",
+    "last_opened_file_path": "C:/Users/Afdmin/Documents/RA2411003012390/PalindroneCheckerApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Admin/Documents/RA2411003012390/PalindroneCheckerApp/App/src/Main.java",
+    "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -71,6 +86,7 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
       </set>
     </attachedChunks>
   </component>
@@ -83,6 +99,7 @@
       <updated>1771405813061</updated>
       <workItem from="1771405814169" duration="484000" />
       <workItem from="1771406323671" duration="6761000" />
+      <workItem from="1772702327961" duration="739000" />
     </task>
     <servers />
   </component>
