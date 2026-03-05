@@ -7,8 +7,9 @@
     <list default="true" id="5441c91a-7a91-4991-a2e0-d8c4d0ff91b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/src/PalindroneCheckerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/App/src/PalindroneCheckerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/App/PalindromeService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/App/PalindroneCheckerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/App/PalindroneCheckerApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/App/PalindroneStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/App/StackStrategy.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +32,12 @@
     &quot;assignee&quot;: &quot;samiulislam8723-cloud&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/samiulislam8723-cloud/PalindroneCheckerApp",
-    "accountId": "87be5e74-5b88-42d8-b64f-b642614144bc"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/samiulislam8723-cloud/PalindroneCheckerApp&quot;,
+    &quot;accountId&quot;: &quot;87be5e74-5b88-42d8-b64f-b642614144bc&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -69,6 +70,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "UC12",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Afdmin/Documents/RA2411003012390/PalindroneCheckerApp",
@@ -100,6 +102,7 @@
       <workItem from="1771405814169" duration="484000" />
       <workItem from="1771406323671" duration="6761000" />
       <workItem from="1772702327961" duration="739000" />
+      <workItem from="1772703084128" duration="1186000" />
     </task>
     <servers />
   </component>
